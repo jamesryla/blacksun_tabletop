@@ -5,6 +5,11 @@ This challenge originally comes from tryhackme and is an exercise in tracking ho
 
 This writeup & exercise is an attempt to better learn Splunk searching, the IOCs of common ransomware & how to map IOCs to the Mitre Att&ck framework.
 
+### Resources
+- [VMWare](https://blogs.vmware.com/security/2022/01/blacksun-ransomware-the-dark-side-of-powershell.html)
+- [VirusTotal](https://www.virustotal.com/gui/file/e5429f2e44990b3d4e249c566fbf19741e671c0e40b809f87248d9ec9114bef9/community)
+- [TryHackMe](https://tryhackme.com/room/posheclipse) 
+
 ### Exercise Scenario
 - We have been asked to investigate some events that occurred on a machine. Some strange file extensions have been noticed and we are concerned ransomware may have been introduced to the system.
 
@@ -99,5 +104,6 @@ In this exercise an image was also created. We can filter by common image file t
 In this exercise & the associated logs, we were fortunate enough to have the IOCs mapped to MITRE techniques within Splunk. Utilizing this information I built an Enterprise ATT&CK Matrix for BlackSun ransomeware.
 
 ![blacksun_ransomware](https://github.com/jamesryla/blacksun_tabletop/assets/58945104/ce61704f-b371-42ce-a9e6-3fa9ae740d45)
+
 
   
